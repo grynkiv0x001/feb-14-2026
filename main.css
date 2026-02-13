@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1, h2 {
+  font-family: "Monsieur La Doulaise", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+main {
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  text-align: center;
+}
+
+.actions {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  gap: 16px;
+}
+
+button {
+  background: transparent;
+  border: none;
+  font-family: "Monsieur La Doulaise", cursive;
+  font-size: 2em;
+  transition: color 0.3s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #ebaac8;
+  transition: color 0.1s ease-in;
+}
+
+.banner {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.hidden {
+  display: none;
+}
+
+.banner img {
+  width: 100%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.banner h2 {
+  position: absolute;
+  top: 56px;
+  font-size: 2em;
+}
