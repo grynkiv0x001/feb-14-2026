@@ -39,6 +39,7 @@ main {
 button {
   background: transparent;
   border: none;
+  color: #000;
   font-family: "Monsieur La Doulaise", cursive;
   font-size: 2em;
   transition: color 0.3s ease-in-out;
